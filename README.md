@@ -60,3 +60,7 @@ A modern editorial website inspired by The Verge.
 **Live Demo**
 
 **Repository**
+
+## Tech Stack
+
+HTML5 · CSS3 · JavaScript · Git · GitHub · VS Code 
