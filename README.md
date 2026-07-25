@@ -20,3 +20,43 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 - ◉ Learning JavaScript
 - ○ React (Next Milestone)
 - ○ Building Modern UI Experiences
+
+## Selected Work
+
+### CSS Playground
+
+A growing collection of creative CSS experiments, animations, and UI techniques.
+
+**[Live Demo](https://ali-mirzaei-dev.github.io/CSS-Playground/)**
+
+**[Repository](https://github.com/ali-mirzaei-dev/CSS-Playground)**
+
+---
+
+### Stripe Website
+
+A pixel-perfect recreation of Stripe's modern landing page.
+
+**[Live Demo](https://ali-mirzaei-dev.github.io/Stripe-Website/)**
+
+**[Repository](https://github.com/ali-mirzaei-dev/Stripe-Website)**
+
+---
+
+### Linear Website
+
+A faithful recreation of Linear's clean and minimal interface.
+
+**[Live Demo](https://ali-mirzaei-dev.github.io/Linear-Website/)**
+
+**[Repository](https://github.com/ali-mirzaei-dev/Linear-Website)**
+
+---
+
+### The Verge Clone
+
+A modern editorial website inspired by The Verge.
+
+**Live Demo**
+
+**Repository**
