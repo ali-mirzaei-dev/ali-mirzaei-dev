@@ -64,3 +64,5 @@ A modern editorial website inspired by The Verge.
 ## Tech Stack
 
 HTML5 · CSS3 · JavaScript · Git · GitHub · VS Code 
+
+## GitHub Activity
