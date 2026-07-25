@@ -43,6 +43,12 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 
 ### CSS Playground
 
+<a href="(https://ali-mirzaei-dev.github.io/CSS-Playground/)">
+
+<img src="assets/css-playground.webp" width="100%">
+
+</a>
+
 > A growing collection of creative CSS experiments, animations, and UI techniques.
 
 → [Live Demo](https://ali-mirzaei-dev.github.io/CSS-Playground/)
@@ -53,6 +59,11 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 
 ### Stripe Website
 
+<a href="(https://ali-mirzaei-dev.github.io/Stripe-Website/)">
+
+<img src="assets/stripe.webp" width="100%">
+
+</a>
 > A pixel-perfect recreation of Stripe's modern landing page.
 
 → [Live Demo](https://ali-mirzaei-dev.github.io/Stripe-Website/)
@@ -63,6 +74,11 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 
 ### Linear Website
 
+<a href="(https://ali-mirzaei-dev.github.io/Linear-Website/)">
+
+<img src="assets/linear.webp" width="100%">
+
+</a>
 > A faithful recreation of Linear's clean and minimal interface.
 
 → [Live Demo](https://ali-mirzaei-dev.github.io/Linear-Website/)
