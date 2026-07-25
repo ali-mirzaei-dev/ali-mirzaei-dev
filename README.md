@@ -1,10 +1,14 @@
 <div align="center">
 
-# Ali Mirzaei
+<h1>Ali Mirzaei</h1>
 
-#### Frontend Developer
+<p>
+<strong>Frontend Engineer</strong>
+</p>
 
+<p>
 Crafting pixel-perfect frontend interfaces.
+</p>
 
 <br>
 
