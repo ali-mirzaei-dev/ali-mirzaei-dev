@@ -66,3 +66,10 @@ A modern editorial website inspired by The Verge.
 HTML5 · CSS3 · JavaScript · Git · GitHub · VS Code 
 
 ## GitHub Activity
+
+## Connect
+
+- GitHub
+- LinkedIn
+- Instagram
+- Email
