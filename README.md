@@ -131,6 +131,12 @@ View Demo → • Repository
 
 </p>
 
+<p align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ali-mirzaei-dev&theme=github-dark&hide_border=true">
+
+</p>
+
 ## Connect
 
 <p align="left">
