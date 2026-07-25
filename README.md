@@ -10,16 +10,30 @@ Crafting pixel-perfect frontend interfaces.
 
 </div>
 
+<table>
+<tr>
+
+<td valign="top" width="60%">
+
 ## Introduction
 
 I'm a frontend developer focused on building clean, modern, and pixel-perfect user interfaces. I enjoy recreating real-world products to sharpen my design eye and frontend skills, with a strong emphasis on thoughtful details, smooth interactions, and high-quality user experiences.
+
+</td>
+
+<td valign="top" width="40%">
 
 ## Current Focus
 
 - ✓ HTML & CSS
 - ◉ Learning JavaScript
-- ○ React (Next Milestone)
-- ○ Building Modern UI Experiences
+- ○ React
+- ○ Modern UI Design
+
+</td>
+
+</tr>
+</table>
 
 ## Selected Work
 
