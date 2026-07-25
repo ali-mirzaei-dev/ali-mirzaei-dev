@@ -43,41 +43,43 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 
 ### CSS Playground
 
-A growing collection of creative CSS experiments, animations, and UI techniques.
+> A growing collection of creative CSS experiments, animations, and UI techniques.
 
 → [Live Demo](https://ali-mirzaei-dev.github.io/CSS-Playground/)
 
 → [Repository](https://github.com/ali-mirzaei-dev/CSS-Playground)
- 
-<br>
+
+<br><br>
 
 ### Stripe Website
 
-A pixel-perfect recreation of Stripe's modern landing page.
+> A pixel-perfect recreation of Stripe's modern landing page.
 
 → [Live Demo](https://ali-mirzaei-dev.github.io/Stripe-Website/)
 
 → [Repository](https://github.com/ali-mirzaei-dev/Stripe-Website)
 
-<br>
+<br><br>
 
 ### Linear Website
 
-A faithful recreation of Linear's clean and minimal interface.
+> A faithful recreation of Linear's clean and minimal interface.
 
 → [Live Demo](https://ali-mirzaei-dev.github.io/Linear-Website/)
 
 → [Repository](https://github.com/ali-mirzaei-dev/Linear-Website)
 
-<br>
+<br><br>
 
 ### The Verge Clone
 
-A modern editorial website inspired by The Verge.
+> A modern editorial website inspired by The Verge.
 
-**Live Demo**
+→ [Live Demo]()
 
-**Repository**
+→ [Repository]()
+
+<br><br>
 
 ## Tech Stack
 
