@@ -45,7 +45,7 @@ A growing collection of creative CSS experiments, animations, and UI techniques.
 
 → [Repository](https://github.com/ali-mirzaei-dev/CSS-Playground)
  
----
+<br>
 
 ### Stripe Website
 
@@ -55,7 +55,7 @@ A pixel-perfect recreation of Stripe's modern landing page.
 
 → [Repository](https://github.com/ali-mirzaei-dev/Stripe-Website)
 
----
+<br>
 
 ### Linear Website
 
@@ -65,7 +65,7 @@ A faithful recreation of Linear's clean and minimal interface.
 
 → [Repository](https://github.com/ali-mirzaei-dev/Linear-Website)
 
----
+<br>
 
 ### The Verge Clone
 
@@ -77,7 +77,9 @@ A modern editorial website inspired by The Verge.
 
 ## Tech Stack
 
-HTML5 · CSS3 · JavaScript · Git · GitHub · VS Code 
+<p align="left">
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" />
+</p>
 
 ## GitHub Activity
 
