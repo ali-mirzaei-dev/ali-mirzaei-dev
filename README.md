@@ -2,7 +2,7 @@
 
 # Ali Mirzaei
 
-### Frontend Engineer
+#### Frontend Developer
 
 Crafting pixel-perfect frontend interfaces.
 
