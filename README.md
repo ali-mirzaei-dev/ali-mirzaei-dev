@@ -85,7 +85,11 @@ A modern editorial website inspired by The Verge.
 
 ## Connect
 
-- GitHub
-- LinkedIn
-- Instagram
-- Email
+<p align="left">
+
+<a href="https://github.com/ali-mirzaei-dev">GitHub</a> •
+<a href="https://linkedin.com/in/ali-mirzaei-dev">LinkedIn</a> •
+<a href="https://instagram.com/ali.mirzaei.dev">Instagram</a> •
+<a href="mailto:ali.mirzaei.kt@gmail.com">Email</a>
+
+</p>
