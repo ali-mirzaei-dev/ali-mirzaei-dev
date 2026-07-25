@@ -48,7 +48,7 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 
 <a href="https://ali-mirzaei-dev.github.io/CSS-Playground/">
 
-<img src="assets/projects/css-playground.webp" width="300">
+<img src="assets/css-playground.webp" width="300">
 
 </a>
 
@@ -65,7 +65,7 @@ Creative CSS experiments, animations, and UI components.
 
 <a href="https://ali-mirzaei-dev.github.io/Stripe-Website/">
 
-<img src="assets/projects/stripe.webp" width="300">
+<img src="assets/stripe.webp" width="300">
 
 </a>
 
@@ -86,7 +86,7 @@ Pixel-perfect recreation of Stripe's landing page.
 
 <a href="https://ali-mirzaei-dev.github.io/Linear-Website/">
 
-<img src="assets/projects/linear.webp" width="300">
+<img src="assets/linear.webp" width="300">
 
 </a>
 
@@ -101,7 +101,7 @@ Faithful recreation of Linear's clean interface.
 
 <td width="50%" valign="top" align="center">
 
-<img src="assets/projects/verge.webp" width="300">
+<img src="assets/verge.webp" width="300">
 
 ### The Verge Clone
 
