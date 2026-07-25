@@ -39,63 +39,81 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 </tr>
 </table>
 
-## Selected Work
+## Featured Projects
+
+<table>
+<tr>
+
+<td width="50%" valign="top" align="center">
+
+<a href="https://ali-mirzaei-dev.github.io/CSS-Playground/">
+
+<img src="assets/projects/css-playground.webp" width="300">
+
+</a>
 
 ### CSS Playground
 
-<a href="(https://ali-mirzaei-dev.github.io/CSS-Playground/)">
+Creative CSS experiments, animations, and UI components.
 
-<img src="assets/css-playground.webp" width="100%">
+<a href="https://ali-mirzaei-dev.github.io/CSS-Playground/">View Demo →</a> •
+<a href="https://github.com/ali-mirzaei-dev/CSS-Playground">Repository</a>
+
+</td>
+
+<td width="50%" valign="top" align="center">
+
+<a href="https://ali-mirzaei-dev.github.io/Stripe-Website/">
+
+<img src="assets/projects/stripe.webp" width="300">
 
 </a>
-
-> A growing collection of creative CSS experiments, animations, and UI techniques.
-
-→ [Live Demo](https://ali-mirzaei-dev.github.io/CSS-Playground/)
-
-→ [Repository](https://github.com/ali-mirzaei-dev/CSS-Playground)
-
-<br><br>
 
 ### Stripe Website
 
-<a href="(https://ali-mirzaei-dev.github.io/Stripe-Website/)">
+Pixel-perfect recreation of Stripe's landing page.
 
-<img src="assets/stripe.webp" width="100%">
+<a href="https://ali-mirzaei-dev.github.io/Stripe-Website/">View Demo →</a> •
+<a href="https://github.com/ali-mirzaei-dev/Stripe-Website">Repository</a>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top" align="center">
+
+<a href="https://ali-mirzaei-dev.github.io/Linear-Website/">
+
+<img src="assets/projects/linear.webp" width="300">
 
 </a>
-> A pixel-perfect recreation of Stripe's modern landing page.
-
-→ [Live Demo](https://ali-mirzaei-dev.github.io/Stripe-Website/)
-
-→ [Repository](https://github.com/ali-mirzaei-dev/Stripe-Website)
-
-<br><br>
 
 ### Linear Website
 
-<a href="(https://ali-mirzaei-dev.github.io/Linear-Website/)">
+Faithful recreation of Linear's clean interface.
 
-<img src="assets/linear.webp" width="100%">
+<a href="https://ali-mirzaei-dev.github.io/Linear-Website/">View Demo →</a> •
+<a href="https://github.com/ali-mirzaei-dev/Linear-Website">Repository</a>
 
-</a>
-> A faithful recreation of Linear's clean and minimal interface.
+</td>
 
-→ [Live Demo](https://ali-mirzaei-dev.github.io/Linear-Website/)
+<td width="50%" valign="top" align="center">
 
-→ [Repository](https://github.com/ali-mirzaei-dev/Linear-Website)
-
-<br><br>
+<img src="assets/projects/verge.webp" width="300">
 
 ### The Verge Clone
 
-> A modern editorial website inspired by The Verge.
+Editorial website inspired by The Verge.
 
-→ [Live Demo]()
+View Demo → • Repository
 
-→ [Repository]()
+</td>
 
-<br><br>
+</tr>
+
+</table>
 
 ## Tech Stack
 
