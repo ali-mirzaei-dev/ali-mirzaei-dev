@@ -103,7 +103,7 @@ Faithful recreation of Linear's clean interface.
 
 <a href="https://ali-mirzaei-dev.github.io/The-Verge-Website/">
 
-<img src="assets/The Verge.webp" width="300">
+<img src="assets/The-Verge.webp" width="300">
 
 </a>
 
