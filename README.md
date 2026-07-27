@@ -56,7 +56,7 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 
 Creative CSS experiments, animations, and UI components.
 
-<a href="https://ali-mirzaei-dev.github.io/CSS-Playground/">View Demo →</a> •
+<a href="https://ali-mirzaei-dev.github.io/CSS-Playground/">View Demo </a> •
 <a href="https://github.com/ali-mirzaei-dev/CSS-Playground">Repository</a>
 
 </td>
@@ -73,7 +73,7 @@ Creative CSS experiments, animations, and UI components.
 
 Pixel-perfect recreation of Stripe's landing page.
 
-<a href="https://ali-mirzaei-dev.github.io/Stripe-Website/">View Demo →</a> •
+<a href="https://ali-mirzaei-dev.github.io/Stripe-Website/">View Demo </a> •
 <a href="https://github.com/ali-mirzaei-dev/Stripe-Website">Repository</a>
 
 </td>
@@ -94,21 +94,25 @@ Pixel-perfect recreation of Stripe's landing page.
 
 Faithful recreation of Linear's clean interface.
 
-<a href="https://ali-mirzaei-dev.github.io/Linear-Website/">View Demo →</a> •
+<a href="https://ali-mirzaei-dev.github.io/Linear-Website/">View Demo </a> •
 <a href="https://github.com/ali-mirzaei-dev/Linear-Website">Repository</a>
 
 </td>
 
 <td width="50%" valign="top" align="center">
 
-<img src="assets/verge.webp" width="300">
+<a href="https://ali-mirzaei-dev.github.io/The-Verge-Website/">
+
+<img src="assets/The Verge.webp" width="300">
+
+</a>
 
 ### The Verge Clone
 
 Editorial website inspired by The Verge.
 
-View Demo → • Repository
-
+<a href="https://ali-mirzaei-dev.github.io/The-Verge-Website/">View Demo</a> •
+<a href="https://github.com/ali-mirzaei-dev/The-Verge-Website">Repository</a>
 </td>
 
 </tr>
