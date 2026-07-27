@@ -139,11 +139,22 @@ Editorial website inspired by The Verge.
 
 ## Connect
 
-<p align="left">
+<p align="center">
 
-<a href="https://github.com/ali-mirzaei-dev">GitHub</a> •
-<a href="https://linkedin.com/in/ali-mirzaei-dev">LinkedIn</a> •
-<a href="https://instagram.com/ali.mirzaei.dev">Instagram</a> •
-<a href="mailto:ali.mirzaei.kt@gmail.com">Email</a>
+<a href="https://github.com/ali-mirzaei-dev" target="_blank">
+  <img src="https://cdn.simpleicons.org/github/white" width="32" alt="GitHub"/>
+</a>
+
+<a href="https://www.linkedin.com/in/ali-mirzaei-dev/" target="_blank">
+  <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="32" alt="LinkedIn"/>
+</a>
+
+<a href="https://instagram.com/ali.mirzaei.dev" target="_blank">
+  <img src="https://cdn.simpleicons.org/instagram/E4405F" width="32" alt="Instagram"/>
+</a>
+
+<a href="mailto:ali.mirzaei.kt@gmail.com">
+  <img src="https://cdn.simpleicons.org/gmail/EA4335" width="32" alt="Email"/>
+</a>
 
 </p>
