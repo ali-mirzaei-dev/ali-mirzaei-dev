@@ -141,23 +141,20 @@ Editorial website inspired by The Verge.
 
 <p align="center">
 
-<a href="https://github.com/ali-mirzaei-dev" target="_blank">
-  <img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub"/>
+<a href="https://github.com/ali-mirzaei-dev">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub"/>
 </a>
-&nbsp;&nbsp;&nbsp;
 
-<a href="https://www.linkedin.com/in/ali-mirzaei-dev/" target="_blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn"/>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn"/>
 </a>
-&nbsp;&nbsp;&nbsp;
 
-<a href="https://instagram.com/ali.mirzaei.dev" target="_blank">
-  <img src="https://cdn.simpleicons.org/instagram/white" height="38" alt="Instagram"/>
+<a href="https://instagram.com/ali.mirzaei.dev">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="32" alt="Instagram"/>
 </a>
-&nbsp;&nbsp;&nbsp;
 
 <a href="mailto:ali.mirzaei.kt@gmail.com">
-  <img src="https://cdn.simpleicons.org/gmail/white" height="38" alt="Email"/>
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email"/>
 </a>
 
 </p>
