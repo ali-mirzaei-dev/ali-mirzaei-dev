@@ -1,14 +1,16 @@
-<div align="center">
+<p align="center">
 
-<h1>Ali Mirzaei</h1>
+<img src="assets/Banner.webp" width="100%" alt="Ali Mirzaei Banner">
 
-<p>
-<strong>Frontend Engineer</strong>
 </p>
 
-<p>
-Crafting pixel-perfect frontend interfaces.
+<p align="center">
+
+Frontend Developer • Building modern web experiences
+
 </p>
+
+<br>
 
 <br>
 
