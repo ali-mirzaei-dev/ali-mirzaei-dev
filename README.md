@@ -142,19 +142,22 @@ Editorial website inspired by The Verge.
 <p align="center">
 
 <a href="https://github.com/ali-mirzaei-dev" target="_blank">
-  <img src="https://cdn.simpleicons.org/github/white" width="32" alt="GitHub"/>
+  <img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub"/>
 </a>
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/ali-mirzaei-dev/" target="_blank">
-  <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="32" alt="LinkedIn"/>
+  <img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn"/>
 </a>
+&nbsp;&nbsp;&nbsp;
 
 <a href="https://instagram.com/ali.mirzaei.dev" target="_blank">
-  <img src="https://cdn.simpleicons.org/instagram/E4405F" width="32" alt="Instagram"/>
+  <img src="https://cdn.simpleicons.org/instagram/white" height="38" alt="Instagram"/>
 </a>
+&nbsp;&nbsp;&nbsp;
 
 <a href="mailto:ali.mirzaei.kt@gmail.com">
-  <img src="https://cdn.simpleicons.org/gmail/EA4335" width="32" alt="Email"/>
+  <img src="https://cdn.simpleicons.org/gmail/white" height="38" alt="Email"/>
 </a>
 
 </p>
