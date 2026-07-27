@@ -4,12 +4,6 @@
 
 </p>
 
-<p align="center">
-
-Frontend Developer • Building modern web experiences
-
-</p>
-
 <br>
 
 <br>
