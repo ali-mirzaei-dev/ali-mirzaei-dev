@@ -125,9 +125,9 @@ Editorial website inspired by The Verge.
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ali-mirzaei-dev&show_icons=true&theme=github_dark&hide_border=true" />
+<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api?username=ali-mirzaei-dev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ali-mirzaei-dev&layout=compact&theme=github_dark&hide_border=true" />
+<img height="170" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=ali-mirzaei-dev&layout=compact&theme=github_dark&hide_border=true" />
 
 </p>
 
