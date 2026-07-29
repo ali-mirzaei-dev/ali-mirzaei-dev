@@ -123,16 +123,16 @@ Editorial website inspired by The Verge.
 
 ## GitHub Activity
 
-<p align="center">
-  
-  <img width="75%" src="https://github-readme-stats-one-bice.vercel.app/api?username=ali-mirzaei-dev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github">
-  
+<p align="left">
+
+<img width="60%" src="https://github-readme-stats-one-bice.vercel.app/api?username=ali-mirzaei-dev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github">
+
 </p>
 
-<p align="center">
-  
-  <img width="75%" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=ali-mirzaei-dev&layout=compact&theme=github_dark&hide_border=true">
-  
+<p align="left">
+
+<img width="60%" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=ali-mirzaei-dev&layout=compact&theme=github_dark&hide_border=true">
+
 </p>
 
 <p align="center">
