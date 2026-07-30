@@ -9,3 +9,26 @@ API = "https://api.github.com/graphql"
 headers = {
     "Authorization": f"Bearer {TOKEN}"
 }
+query = """
+query($login: String!) {
+  user(login: $login) {
+    contributionsCollection {
+      contributionCalendar {
+        totalContributions
+      }
+    }
+  }
+}
+"""
+response = requests.post(
+    API,
+    headers=headers,
+    json={
+        "query": query,
+        "variables": {
+            "login": USERNAME
+        }
+    }
+)
+data = response.json()
+print(data)
