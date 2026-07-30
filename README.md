@@ -1,7 +1,3 @@
-<!-- <p align="center">
-<img src="assets/Banner.webp" width="100%" alt="Ali Mirzaei Banner">
-</p> -->
-
 <!-- ==================== ASCII PORTRAIT ==================== -->
 <p align="center">
   <img width="80%" src="https://raw.githubusercontent.com/ali-mirzaei-dev/ali-mirzaei-dev/main/assets/ascii.svg">
@@ -48,30 +44,23 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 </tr>
 </table>
 
-## Tech Stack
+<!-- ==================== STACK ==================== -->
 
 <p align="left">
-<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode&theme=light" />
+  <img src="assets/stack-header.svg" alt="Stack" width="100%" />
 </p>
 
-## Connect
+<p align="center" style="color: #3f4750; font-family: Inter, sans-serif;">
+HTML · CSS · JavaScript · Git · GitHub · VS Code
+</p>
+
+<p align="left">
+  <img src="assets/connect-header.svg" alt="Connect" width="100%" />
+</p>
 
 <p align="center">
-
-<a href="https://github.com/ali-mirzaei-dev">
-  <img src="https://img.shields.io/badge/GitHub-3f4750?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub"/>
-</a>
-
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN/">
-  <img src="https://img.shields.io/badge/LinkedIn-3f4750?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/>
-</a>
-
-<a href="https://instagram.com/ali.mirzaei.dev">
-  <img src="https://img.shields.io/badge/Instagram-3f4750?style=for-the-badge&logo=instagram&logoColor=white" height="28" alt="Instagram"/>
-</a>
-
-<a href="mailto:ali.mirzaei.kt@gmail.com">
-  <img src="https://img.shields.io/badge/Email-3f4750?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email"/>
-</a>
-
+<a href="https://github.com/ali-mirzaei-dev"><img src="https://img.shields.io/badge/GitHub-3f4750?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-3f4750?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>
+<a href="https://instagram.com/ali.mirzaei.dev"><img src="https://img.shields.io/badge/Instagram-3f4750?style=for-the-badge&logo=instagram&logoColor=white" height="28" alt="Instagram"/></a>
+<a href="mailto:ali.mirzaei.kt@gmail.com"><img src="https://img.shields.io/badge/Email-3f4750?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email"/></a>
 </p>
