@@ -64,3 +64,43 @@ def prep(path, crop=None):
     gray[alpha < 20] = 255
 
     return Image.fromarray(gray)
+
+def to_lines(img, cols=COLS, gamma=GAMMA):
+    w, h = img.size
+
+    if CROP_BOTTOM:
+        img = img.crop((0, 0, w, int(h * (1 - CROP_BOTTOM))))
+        w, h = img.size
+
+    rows = int(cols * (h / w) * ROW_RATIO)
+
+    img = img.resize((cols, rows), Image.LANCZOS)
+
+    px = list(img.getdata())
+
+    n = len(RAMP)
+
+    out = []
+
+    for r in range(rows):
+
+        out.append(
+
+            "".join(
+
+                RAMP[min(n - 1, int((1 - px[r * cols + c] / 255.0) ** gamma * n))]
+
+                for c in range(cols)
+
+            ).rstrip()
+
+        )
+
+    while out and not out[0].strip():
+        out.pop(0)
+
+    while out and not out[-1].strip():
+        out.pop()
+
+    return out
+    
