@@ -1,4 +1,4 @@
-def create_svg(contributions):
+def create_contributions_svg(contributions):
 
     total = contributions["totalContributions"]
     weeks = contributions["weeks"]
@@ -28,7 +28,6 @@ def create_svg(contributions):
     if highest == 0:
         highest = 1
 
-    # === LAYOUT ===
     card_width = 760
     card_height = 180
     
@@ -42,14 +41,12 @@ def create_svg(contributions):
 
     step = graph_width / (len(weekly_totals) - 1)
 
-    # Build points
     points = []
     for i, value in enumerate(weekly_totals):
         x = start_x + i * step
         y = baseline - value / highest * graph_height
         points.append((x, y))
 
-    # Line path
     line_path = ""
     for i, (x, y) in enumerate(points):
         if i == 0:
@@ -57,7 +54,6 @@ def create_svg(contributions):
         else:
             line_path += f"L {x:.2f} {y:.2f} "
 
-    # Area path
     area_path = f"M {points[0][0]:.2f} {baseline:.2f} "
     for x, y in points:
         area_path += f"L {x:.2f} {y:.2f} "
@@ -65,7 +61,6 @@ def create_svg(contributions):
 
     last_x, last_y = points[-1]
 
-    # Professional, beautiful font stack
     font_pro = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif"
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg"
@@ -82,9 +77,6 @@ rx="10"
 fill="#ffffff"
 stroke="#d0d7de"/>
 
-<!-- === TOP ROW: STATS === -->
-
-<!-- Left: Total contributions -->
 <text
 x="35"
 y="55"
@@ -100,7 +92,6 @@ font-size="18"
 font-family="{font_pro}"
 fill="#a5abb3">Contributions in the last year</text>
 
-<!-- Right: Active days -->
 <text
 x="720"
 y="45"
@@ -118,7 +109,6 @@ font-size="16"
 font-family="{font_pro}"
 fill="#a5abb3">Active days</text>
 
-<!-- Right: Best week -->
 <text
 x="720"
 y="105"
@@ -136,15 +126,11 @@ font-size="16"
 font-family="{font_pro}"
 fill="#a5abb3">Best week</text>
 
-<!-- === BOTTOM ROW: FULL-WIDTH GRAPH === -->
-
-<!-- Filled area under the line -->
 <path
 d="{area_path}"
 fill="#f0f2f5"
 stroke="none"/>
 
-<!-- The line -->
 <path
 d="{line_path}"
 fill="none"
@@ -153,7 +139,6 @@ stroke-width="1.5"
 stroke-linecap="round"
 stroke-linejoin="round"/>
 
-<!-- Dot at the last data point -->
 <circle
 cx="{last_x:.2f}"
 cy="{last_y:.2f}"
@@ -164,3 +149,24 @@ stroke-width="2"/>
 
 </svg>
 """
+
+
+def create_streak_svg(current_streak, current_range, longest_streak, longest_range):
+    """Create the streak stats SVG card."""
+    
+    font_pro = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif"
+    
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="620" height="96" viewBox="0 0 620 96" fill="none">
+<rect x="1" y="1" width="618" height="94" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+
+<line x1="310" y1="16" x2="310" y2="80" stroke="#d8dee4" stroke-width="1"/>
+
+<text x="34" y="44" font-size="34" font-family="{font_pro}" font-weight="700" fill="#3f4750">{current_streak}</text>
+<text x="34" y="64" font-size="12" font-family="{font_pro}" fill="#a5abb3">Current streak</text>
+<text x="34" y="80" font-size="11" font-family="{font_pro}" fill="#a5abb3">{current_range}</text>
+
+<text x="344" y="44" font-size="34" font-family="{font_pro}" font-weight="700" fill="#3f4750">{longest_streak}</text>
+<text x="344" y="64" font-size="12" font-family="{font_pro}" fill="#a5abb3">Longest streak</text>
+<text x="344" y="80" font-size="11" font-family="{font_pro}" fill="#a5abb3">{longest_range}</text>
+
+</svg>'''
