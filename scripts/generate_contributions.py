@@ -42,8 +42,6 @@ data = response.json()
 
 contributions = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
 
-print(contributions)
-
 svg = create_svg(contributions)
 
 with open("assets/contributions.svg", "w", encoding="utf-8") as file:
