@@ -13,7 +13,7 @@
 <!-- ==================== STATS ==================== -->
 
 <p align="center">
-  <img width="100%" src="YOUR-CONTRIBUTIONS-SVG">
+  <img width="100%" src="assets/contributions.svg">
 </p>
 
 <br>

@@ -28,43 +28,66 @@ def create_svg(contributions):
     if highest == 0:
         highest = 1
 
-    start_x = 220
-    graph_width = 430
-    graph_height = 55
-    baseline = 120
+    # === LAYOUT ===
+    card_width = 760
+    card_height = 180
+    
+    # Graph spans full width with padding
+    graph_padding_x = 30
+    start_x = graph_padding_x
+    end_x = card_width - graph_padding_x
+    graph_width = end_x - start_x
+    
+    # More gap between stats row and graph
+    # Stats end around y=129, add more gap before graph starts
+    baseline = 165         # was 155 — pushed further down
+    graph_height = 30      # was 45 — scaled down, thinner peaks
 
     step = graph_width / (len(weekly_totals) - 1)
 
-    graph = ""
-
+    # Build points
+    points = []
     for i, value in enumerate(weekly_totals):
-
         x = start_x + i * step
         y = baseline - value / highest * graph_height
+        points.append((x, y))
 
+    # Line path
+    line_path = ""
+    for i, (x, y) in enumerate(points):
         if i == 0:
-            graph += f"M {x:.2f} {y:.2f} "
+            line_path += f"M {x:.2f} {y:.2f} "
         else:
-            graph += f"L {x:.2f} {y:.2f} "
+            line_path += f"L {x:.2f} {y:.2f} "
 
-    return f"""
-<svg xmlns="http://www.w3.org/2000/svg"
-width="760"
-height="180"
-viewBox="0 0 760 180">
+    # Area path
+    area_path = f"M {points[0][0]:.2f} {baseline:.2f} "
+    for x, y in points:
+        area_path += f"L {x:.2f} {y:.2f} "
+    area_path += f"L {points[-1][0]:.2f} {baseline:.2f} Z"
+
+    last_x, last_y = points[-1]
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg"
+width="{card_width}"
+height="{card_height}"
+viewBox="0 0 {card_width} {card_height}">
 
 <rect
 x="1"
 y="1"
-width="758"
-height="178"
+width="{card_width - 2}"
+height="{card_height - 2}"
 rx="10"
 fill="#ffffff"
 stroke="#d0d7de"/>
 
+<!-- === TOP ROW: STATS === -->
+
+<!-- Left: Total contributions -->
 <text
 x="35"
-y="62"
+y="55"
 font-size="54"
 font-family="Arial"
 font-weight="700"
@@ -72,11 +95,12 @@ fill="#24292f">{total}</text>
 
 <text
 x="35"
-y="88"
+y="82"
 font-size="18"
 font-family="Arial"
 fill="#57606a">contributions in the last year</text>
 
+<!-- Right: Active days -->
 <text
 x="720"
 y="45"
@@ -94,6 +118,7 @@ font-size="16"
 font-family="Arial"
 fill="#57606a">active days</text>
 
+<!-- Right: Best week -->
 <text
 x="720"
 y="108"
@@ -111,13 +136,31 @@ font-size="16"
 font-family="Arial"
 fill="#57606a">best week</text>
 
+<!-- === BOTTOM ROW: FULL-WIDTH GRAPH === -->
+
+<!-- Filled area under the line -->
 <path
-d="{graph}"
+d="{area_path}"
+fill="#f0f2f5"
+stroke="none"/>
+
+<!-- The line — thinner -->
+<path
+d="{line_path}"
 fill="none"
 stroke="#6e7781"
-stroke-width="3"
+stroke-width="1.5"
 stroke-linecap="round"
 stroke-linejoin="round"/>
+
+<!-- Dot at the last data point -->
+<circle
+cx="{last_x:.2f}"
+cy="{last_y:.2f}"
+r="3"
+fill="#24292f"
+stroke="#ffffff"
+stroke-width="2"/>
 
 </svg>
 """
