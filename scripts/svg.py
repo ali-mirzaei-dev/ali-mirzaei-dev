@@ -152,21 +152,30 @@ stroke-width="2"/>
 
 
 def create_streak_svg(current_streak, current_range, longest_streak, longest_range):
-    """Create the streak stats SVG card."""
+    """Create the streak stats SVG card with subtle animations."""
     
     font_pro = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif"
     
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="620" height="96" viewBox="0 0 620 96" fill="none">
 <rect x="1" y="1" width="618" height="94" rx="10" fill="#ffffff" stroke="#d0d7de"/>
 
+<!-- Vertical divider -->
 <line x1="310" y1="16" x2="310" y2="80" stroke="#d8dee4" stroke-width="1"/>
 
-<text x="34" y="44" font-size="34" font-family="{font_pro}" font-weight="700" fill="#3f4750">{current_streak}</text>
-<text x="34" y="64" font-size="12" font-family="{font_pro}" fill="#a5abb3">Current streak</text>
-<text x="34" y="80" font-size="11" font-family="{font_pro}" fill="#a5abb3">{current_range}</text>
+<!-- Current Streak -->
+<g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.4s" fill="freeze"/>
+    <text x="34" y="44" font-size="34" font-family="{font_pro}" font-weight="700" fill="#3f4750">{current_streak}</text>
+    <text x="34" y="64" font-size="12" font-family="{font_pro}" fill="#a5abb3">Current streak</text>
+    <text x="34" y="80" font-size="11" font-family="{font_pro}" fill="#a5abb3">{current_range}</text>
+</g>
 
-<text x="344" y="44" font-size="34" font-family="{font_pro}" font-weight="700" fill="#3f4750">{longest_streak}</text>
-<text x="344" y="64" font-size="12" font-family="{font_pro}" fill="#a5abb3">Longest streak</text>
-<text x="344" y="80" font-size="11" font-family="{font_pro}" fill="#a5abb3">{longest_range}</text>
+<!-- Longest Streak -->
+<g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.4s" fill="freeze"/>
+    <text x="344" y="44" font-size="34" font-family="{font_pro}" font-weight="700" fill="#3f4750">{longest_streak}</text>
+    <text x="344" y="64" font-size="12" font-family="{font_pro}" fill="#a5abb3">Longest streak</text>
+    <text x="344" y="80" font-size="11" font-family="{font_pro}" fill="#a5abb3">{longest_range}</text>
+</g>
 
 </svg>'''
