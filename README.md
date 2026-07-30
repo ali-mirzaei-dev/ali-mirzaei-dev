@@ -1,8 +1,8 @@
-<p align="center">
+<!-- <p align="center">
 
 <img src="assets/Banner.webp" width="100%" alt="Ali Mirzaei Banner">
 
-</p>
+</p> -->
 
 <!-- ==================== ASCII PORTRAIT ==================== -->
 
