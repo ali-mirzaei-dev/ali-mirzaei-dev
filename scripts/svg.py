@@ -32,16 +32,13 @@ def create_svg(contributions):
     card_width = 760
     card_height = 180
     
-    # Graph spans full width with padding
     graph_padding_x = 30
     start_x = graph_padding_x
     end_x = card_width - graph_padding_x
     graph_width = end_x - start_x
     
-    # More gap between stats row and graph
-    # Stats end around y=129, add more gap before graph starts
-    baseline = 165         # was 155 — pushed further down
-    graph_height = 30      # was 45 — scaled down, thinner peaks
+    baseline = 165
+    graph_height = 30
 
     step = graph_width / (len(weekly_totals) - 1)
 
@@ -91,24 +88,24 @@ y="55"
 font-size="54"
 font-family="Arial"
 font-weight="700"
-fill="#24292f">{total}</text>
+fill="#3f4750">{total}</text>
 
 <text
 x="35"
 y="82"
 font-size="18"
 font-family="Arial"
-fill="#57606a">contributions in the last year</text>
+fill="#a5abb3">Contributions in the last year</text>
 
 <!-- Right: Active days -->
 <text
 x="720"
 y="45"
 text-anchor="end"
-font-size="34"
+font-size="28"
 font-family="Arial"
 font-weight="700"
-fill="#24292f">{active_days}</text>
+fill="#3f4750">{active_days}</text>
 
 <text
 x="720"
@@ -116,17 +113,17 @@ y="66"
 text-anchor="end"
 font-size="16"
 font-family="Arial"
-fill="#57606a">active days</text>
+fill="#a5abb3">Active Days</text>
 
 <!-- Right: Best week -->
 <text
 x="720"
 y="108"
 text-anchor="end"
-font-size="34"
+font-size="28"
 font-family="Arial"
 font-weight="700"
-fill="#24292f">{best_week}</text>
+fill="#3f4750">{best_week}</text>
 
 <text
 x="720"
@@ -134,7 +131,7 @@ y="129"
 text-anchor="end"
 font-size="16"
 font-family="Arial"
-fill="#57606a">best week</text>
+fill="#a5abb3">Best Week</text>
 
 <!-- === BOTTOM ROW: FULL-WIDTH GRAPH === -->
 
@@ -144,11 +141,11 @@ d="{area_path}"
 fill="#f0f2f5"
 stroke="none"/>
 
-<!-- The line — thinner -->
+<!-- The line -->
 <path
 d="{line_path}"
 fill="none"
-stroke="#6e7781"
+stroke="#3f4750"
 stroke-width="1.5"
 stroke-linecap="round"
 stroke-linejoin="round"/>
@@ -158,7 +155,7 @@ stroke-linejoin="round"/>
 cx="{last_x:.2f}"
 cy="{last_y:.2f}"
 r="3"
-fill="#24292f"
+fill="#3f4750"
 stroke="#ffffff"
 stroke-width="2"/>
 
