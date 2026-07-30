@@ -37,7 +37,7 @@ def create_svg(contributions):
     end_x = card_width - graph_padding_x
     graph_width = end_x - start_x
     
-    baseline = 165
+    baseline = 175
     graph_height = 30
 
     step = graph_width / (len(weekly_totals) - 1)
@@ -65,6 +65,9 @@ def create_svg(contributions):
 
     last_x, last_y = points[-1]
 
+    # Professional, beautiful font stack
+    font_pro = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif"
+
     return f"""<svg xmlns="http://www.w3.org/2000/svg"
 width="{card_width}"
 height="{card_height}"
@@ -86,7 +89,7 @@ stroke="#d0d7de"/>
 x="35"
 y="55"
 font-size="54"
-font-family="Arial"
+font-family="{font_pro}"
 font-weight="700"
 fill="#3f4750">{total}</text>
 
@@ -94,7 +97,7 @@ fill="#3f4750">{total}</text>
 x="35"
 y="82"
 font-size="18"
-font-family="Arial"
+font-family="{font_pro}"
 fill="#a5abb3">Contributions in the last year</text>
 
 <!-- Right: Active days -->
@@ -103,7 +106,7 @@ x="720"
 y="45"
 text-anchor="end"
 font-size="22"
-font-family="Arial"
+font-family="{font_pro}"
 font-weight="700"
 fill="#3f4750">{active_days}</text>
 
@@ -112,26 +115,26 @@ x="720"
 y="66"
 text-anchor="end"
 font-size="16"
-font-family="Arial"
-fill="#a5abb3">Active Days</text>
+font-family="{font_pro}"
+fill="#a5abb3">Active days</text>
 
 <!-- Right: Best week -->
 <text
 x="720"
-y="108"
+y="105"
 text-anchor="end"
 font-size="22"
-font-family="Arial"
+font-family="{font_pro}"
 font-weight="700"
 fill="#3f4750">{best_week}</text>
 
 <text
 x="720"
-y="129"
+y="126"
 text-anchor="end"
 font-size="16"
-font-family="Arial"
-fill="#a5abb3">Best Week</text>
+font-family="{font_pro}"
+fill="#a5abb3">Best week</text>
 
 <!-- === BOTTOM ROW: FULL-WIDTH GRAPH === -->
 
