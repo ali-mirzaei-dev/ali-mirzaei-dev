@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+from svg import create_svg
 import os
 import requests
 USERNAME = "ali-mirzaei-dev"
@@ -31,4 +31,15 @@ response = requests.post(
     }
 )
 data = response.json()
-print(data)
+
+contributions = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+
+svg = create_svg(contributions)
+
+with open("assets/contributions.svg", "w", encoding="utf-8") as file:
+    file.write(svg)
+
+with open("assets/contributions.svg", "w", encoding="utf-8") as file:
+    file.write(svg)
+
+print("SVG generated!")
