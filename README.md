@@ -21,11 +21,19 @@
 </p>
 
 <!-- ==================== ABOUT + TECH + CONNECT ==================== -->
-&lt;div align="left"&gt;
+
+<table style="border: none; border-collapse: collapse;">
+<tr style="border: none;">
+
+<td valign="top" width="60%" style="border: none; padding-right: 40px;">
 
 ## About Me
 
 I'm a frontend developer focused on building clean, modern, and pixel-perfect user interfaces. I enjoy recreating real-world products to sharpen my design eye and frontend skills, with a strong emphasis on thoughtful details, smooth interactions, and high-quality user experiences.
+
+</td>
+
+<td valign="top" width="40%" style="border: none;">
 
 ## Current Focus
 
@@ -35,7 +43,11 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 - ○ React
 - ○ Modern UI Design
 
-&lt;/div&gt;
+</td>
+
+</tr>
+</table>
+
 ## Tech Stack
 
 <p align="left">
