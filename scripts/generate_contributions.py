@@ -9,17 +9,25 @@ API = "https://api.github.com/graphql"
 headers = {
     "Authorization": f"Bearer {TOKEN}"
 }
+
 query = """
 query($login: String!) {
   user(login: $login) {
     contributionsCollection {
       contributionCalendar {
         totalContributions
+
+        weeks {
+          contributionDays {
+            contributionCount
+          }
+        }
       }
     }
   }
 }
 """
+
 response = requests.post(
     API,
     headers=headers,
@@ -32,14 +40,14 @@ response = requests.post(
 )
 data = response.json()
 
-contributions = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+contributions = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+
+print(contributions)
 
 svg = create_svg(contributions)
 
 with open("assets/contributions.svg", "w", encoding="utf-8") as file:
     file.write(svg)
 
-with open("assets/contributions.svg", "w", encoding="utf-8") as file:
-    file.write(svg)
 
 print("SVG generated!")
