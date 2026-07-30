@@ -4,6 +4,18 @@
 
 </p>
 
+<!-- ==================== ASCII PORTRAIT ==================== -->
+
+<p align="center">
+  <img width="80%" src="https://raw.githubusercontent.com/ali-mirzaei-dev/ali-mirzaei-dev/main/assets/ascii.svg">
+</p>
+
+<!-- ==================== STATS ==================== -->
+
+<p align="center">
+  <img width="100%" src="YOUR-CONTRIBUTIONS-SVG">
+</p>
+
 <br>
 
 <br>
@@ -121,24 +133,9 @@ Editorial website inspired by The Verge.
 <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" />
 </p>
 
-## GitHub Activity
-
-<p align="left">
-
-<img width="60%" src="https://github-readme-stats-one-bice.vercel.app/api?username=ali-mirzaei-dev&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github">
-
-</p>
-
-<p align="left">
-
-<img width="60%" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=ali-mirzaei-dev&layout=compact&theme=github_dark&hide_border=true">
-
-</p>
 
 <p align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ali-mirzaei-dev&theme=github-dark&hide_border=true">
-
+  <img width="100%" src="YOUR-LANGUAGES-SVG">
 </p>
 
 ## Connect
