@@ -30,11 +30,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          cd scripts
-          python generate_contributions.py
-          python generate_streak.py
-          python generate_languages.py
-          cd ..
+          python scripts/generate_contributions.py
+          python scripts/generate_streak.py
+          python scripts/generate_languages.py
       
       - name: Commit and push changes
         run: |
