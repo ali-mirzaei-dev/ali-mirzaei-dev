@@ -103,4 +103,70 @@ def to_lines(img, cols=COLS, gamma=GAMMA):
         out.pop()
 
     return out
-    
+
+def build_svg(lines, cols=COLS):
+    pad = 14
+    width = int(cols * CHAR_W + pad * 2)
+    height = len(lines) * LINE_H + pad * 2
+
+    p = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" '
+        f'height="{height}" viewBox="0 0 {width} {height}" '
+        f'font-family="{FAMILY}">',
+        f'<style>.a{{fill:{FG_LIGHT}}}'
+        f'@media(prefers-color-scheme:dark){{.a{{fill:{FG_DARK}}}}}</style>'
+    ]
+
+    for i, line in enumerate(lines):
+        y = pad + i * LINE_H
+        begin = f"{i * ROW_DELAY:.2f}s"
+        end = f"{(i + 1) * ROW_DELAY:.2f}s"
+        w = max(len(line), 1) * CHAR_W
+
+        safe = (
+            line.replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
+        )
+
+        p.append(
+            f'<clipPath id="c{i}">'
+            f'<rect x="{pad}" y="{y}" '
+            f'height="{LINE_H}" width="0">'
+            f'<animate attributeName="width" from="0" to="{w:.1f}" '
+            f'begin="{begin}" dur="{ROW_DELAY}s" fill="freeze"/>'
+            f'</rect>'
+            f'</clipPath>'
+        )
+
+        p.append(
+            f'<g clip-path="url(#c{i})">'
+            f'<text xml:space="preserve" '
+            f'x="{pad}" '
+            f'y="{y + 11.2:.1f}" '
+            f'class="a" '
+            f'font-size="{FONT_SIZE}">{safe}</text>'
+            f'</g>'
+        )
+
+        p.append(
+            f'<rect '
+            f'y="{y + 1}" '
+            f'width="6" '
+            f'height="12" '
+            f'class="a" '
+            f'opacity="0">'
+            f'<animate attributeName="x" '
+            f'from="{pad}" '
+            f'to="{pad + w:.1f}" '
+            f'begin="{begin}" '
+            f'dur="{ROW_DELAY}s" '
+            f'fill="freeze"/>'
+            f'<set attributeName="opacity" to="0.8" begin="{begin}"/>'
+            f'<set attributeName="opacity" to="0" begin="{end}"/>'
+            f'</rect>'
+        )
+
+    p.append("</svg>")
+
+    return "".join(p)
