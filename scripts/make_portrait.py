@@ -170,3 +170,38 @@ def build_svg(lines, cols=COLS):
     p.append("</svg>")
 
     return "".join(p)
+
+def main():
+    ap = argparse.ArgumentParser(description="Generate an animated ASCII portrait.")
+    ap.add_argument("photo")
+    ap.add_argument("out", nargs="?", default="ascii.svg")
+    ap.add_argument("--crop", help="left,top,right,bottom")
+    ap.add_argument("--cols", type=int, default=COLS)
+    ap.add_argument("--preview", action="store_true")
+
+    args = ap.parse_args()
+
+    crop = None
+
+    if args.crop:
+        parts = [int(v) for v in args.crop.split(",")]
+
+        if len(parts) != 4:
+            sys.exit("--crop needs four numbers: left,top,right,bottom")
+
+        crop = tuple(parts)
+
+    lines = to_lines(prep(args.photo, crop), cols=args.cols)
+
+    if args.preview:
+        print("\n".join(lines))
+
+    with open(args.out, "w", encoding="utf-8") as f:
+        f.write(build_svg(lines, cols=args.cols))
+
+    print(f"Wrote {args.out}")
+
+
+if __name__ == "__main__":
+    main()
+
