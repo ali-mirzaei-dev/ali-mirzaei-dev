@@ -51,7 +51,7 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 </p>
 
 <p align="center" style="color: #3f4750; font-family: Inter, sans-serif;">
-HTML · CSS · JavaScript · Git · GitHub · VS Code
+HTML · CSS · JavaScript · Git · GitHub · VS Code . Bootstrap . Tailwind CSS
 </p>
 
 <p align="left">
