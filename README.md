@@ -34,8 +34,8 @@ I'm a frontend developer focused on building clean, modern, and pixel-perfect us
 ## Current Focus
 
 - ✓ HTML & CSS
-- ◉ Learning Responsive Design
-- ○ Learning JavaScript
+- ✓ Learning Responsive Design
+- ◉ Learning JavaScript
 - ○ React
 - ○ Modern UI Design
 
