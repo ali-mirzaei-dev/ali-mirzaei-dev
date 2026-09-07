@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from pathlib import Path
 from github_api import fetch_repositories
 from svg import create_languages_svg
 
@@ -31,7 +32,9 @@ total_bytes = sum(v["size"] for v in lang_bytes.values())
 
 svg = create_languages_svg(sorted_langs, total_bytes, lang_repos)
 
-with open("../assets/languages.svg", "w", encoding="utf-8") as file:
-    file.write(svg)
+output_path = Path(__file__).resolve().parent.parent / "assets" / "languages.svg"
 
+with open(output_path, "w", encoding="utf-8") as file:
+    file.write(svg)
+    
 print("Languages SVG generated!")
