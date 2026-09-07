@@ -31,7 +31,7 @@ total_bytes = sum(v["size"] for v in lang_bytes.values())
 
 svg = create_languages_svg(sorted_langs, total_bytes, lang_repos)
 
-with open("assets/languages.svg", "w", encoding="utf-8") as file:
+with open("../assets/languages.svg", "w", encoding="utf-8") as file:
     file.write(svg)
 
 print("Languages SVG generated!")
