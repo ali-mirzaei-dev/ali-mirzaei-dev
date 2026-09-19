@@ -60,7 +60,7 @@ HTML · CSS · JavaScript · Git · GitHub · VS Code . Bootstrap . Tailwind CSS
 
 <p align="center">
 <a href="https://github.com/ali-mirzaei-dev"><img src="https://img.shields.io/badge/GitHub-3f4750?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN/"><img src="https://img.shields.io/badge/LinkedIn-3f4750?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/ali-mirzaei-dev/"><img src="https://img.shields.io/badge/LinkedIn-3f4750?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"/></a>
 <a href="https://instagram.com/ali.mirzaei.dev"><img src="https://img.shields.io/badge/Instagram-3f4750?style=for-the-badge&logo=instagram&logoColor=white" height="28" alt="Instagram"/></a>
 <a href="mailto:ali.mirzaei.kt@gmail.com"><img src="https://img.shields.io/badge/Email-3f4750?style=for-the-badge&logo=gmail&logoColor=white" height="28" alt="Email"/></a>
 </p>
